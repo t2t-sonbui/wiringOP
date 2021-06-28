@@ -220,7 +220,7 @@ mcp4802.o: wiringPi.h wiringPiSPI.h mcp4802.h
 mcp3422.o: wiringPi.h wiringPiI2C.h mcp3422.h
 max31855.o: wiringPi.h wiringPiSPI.h max31855.h
 w25q64.o: wiringPi.h wiringPiSPI.h w25q64.h
-oled.o: wiringPi.h wiringPiSPI.h oled.h font.h
+oled.o: wiringPi.h wiringPiSPI.h oled.h fontGfx.h
 max5322.o: wiringPi.h wiringPiSPI.h max5322.h
 ads1115.o: wiringPi.h wiringPiI2C.h ads1115.h
 sn3218.o: wiringPi.h wiringPiI2C.h sn3218.h
