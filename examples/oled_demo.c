@@ -17,7 +17,7 @@
 #include <stdint.h>
 
 #include "oled.h"
-#include "font.h"
+#include "fontGfx.h"
 
 int oled_demo(struct display_info *disp) {
 	int i;

@@ -2,9 +2,9 @@
  * This 5x7 font is sourced from Adafruit-GFX-Library on github.
  */
 
-#ifndef FONT_H
-#define FONT_H
-
+#ifndef FONT_GFX_H
+#define FONT_GFX_H
+#include <stdint.h>
 struct font_info {
 	uint8_t width;
 	uint8_t height;
@@ -1804,5 +1804,5 @@ static struct font_info font1 = { 5, 7, 1, 0, (uint8_t *)font1_data };
 static struct font_info font2 = { 6, 8, 0, 32, (uint8_t *)font2_data };
 static struct font_info font3 = { 5, 8, 0, 31, (uint8_t *)font3_data };
 
-#endif // FONT_H
+#endif // FONT_GFX_H
 

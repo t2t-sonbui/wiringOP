@@ -11,7 +11,7 @@
 #define OLED_H
 
 #include <stdint.h>
-#include "font.h"
+#include "fontGfx.h"
 
 #define OLED_I2C_ADDR                   0x3c
 

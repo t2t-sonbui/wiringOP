@@ -25,7 +25,7 @@
 #include <sched.h>
 
 #include "oled.h"
-#include "font.h"
+#include "fontGfx.h"
 #include <wiringPiI2C.h>
 
 
